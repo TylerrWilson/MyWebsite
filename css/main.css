@@ -1,0 +1,290 @@
+@import url("fonts.css");
+html {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+/*Box shadows for sections*/
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/******************/
+/*Nav starts*/
+header li {
+  display: inline;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 1em;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 16px;
+}
+
+header a:hover {
+  color: grey;
+}
+
+.icon {
+  position: relative;
+  top: 25px;
+}
+
+#nav {
+  height: 60px;
+  margin: 0px;
+}
+
+@media (max-width: 400px) {
+  header a{
+    font-size: 2.5vw;
+  }
+}
+/*--End Nav--*/
+/******************/
+
+
+/******************/
+/*--Hero image starts--*/
+.hero-image {
+  background-image: url(../images/hero.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header ul {
+  margin: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 200%;
+  font-size: 2.5vw;
+  width: 100%;
+}
+/*--End Hero image--*/
+/******************/
+
+
+/******************/
+/*--Work section starts--*/
+.info {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.info h2, p {
+  max-width: 60%;
+  min-width: 319px;
+  top: 5em;
+}
+
+.info p {
+  padding-top: 3em;
+}
+
+.myPic {
+  max-width: 285px;
+  max-height: 327px;
+  float: right;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+
+.box {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.work-image{
+  width: 40%;
+  float: left;
+  margin: 0 auto;
+  min-width: 200px;
+}
+
+.work-text{
+  width: 60%;
+  float: left;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+
+
+@media (max-width: 400px) {
+  .info h2, p{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+/*--End work section--*/
+/******************/
+
+
+/******************/
+/*--Start hobby section--*/
+.last {
+  padding: 20px;
+  float: left;
+  max-width: 960px;
+}
+
+.last ul {
+  overflow: hidden;
+  float: left; 
+}
+/*--End Hobby section--*/
+/******************/
+
+
+/******************/
+/*--contact page--*/
+.contact-a{
+  color: #000000;
+}
+.contact-title {
+  margin-top: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.contact-form{
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.form-control {
+  max-width: 600px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #efefef;
+  border-color: transparent;
+  color: #000000;
+  text-align: center;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .8s;
+}
+
+form .submit:hover {
+  background-color: #f5414d;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/*--End contact form--*/
+/******************/
+
+/******************/
+/*Begin footer*/
+footer {
+  background-color: #efefef;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+  overflow: Hidden;
+}
+
+footer h5 {
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  padding-left: 10px;
+}
+
+footer li:first-child {
+  padding-left: 0;
+}
+
+footer img {
+  max-width: 43px;
+}
+
+footer li img {
+  max-width: 30px;
+  padding: 10.5px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  color: #fd4141;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #000000;
+  border-radius: 5px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .8s;
+}
+/*--End footer--*/
+/******************/

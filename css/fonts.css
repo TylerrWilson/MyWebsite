@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-light.ttf');
+}
+@font-face {
+  font-family: 'Roboto2';
+  src: url('../fonts/roboto-thin.ttf');
+}
+body{
+  font-family: Roboto, serif;
+}
+h1{
+  font-family: Roboto2, calibri;
+  color: #ffffff;
+  font-size: 200%;
+}
+
+h4{
+  font-family: Roboto2, calibri;
+  color: #ffffff;
+}
